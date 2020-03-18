@@ -9,3 +9,4 @@ choco install git -y
 echo F|xcopy /s /Y "%CD%\git-clone.bat" "..\git-clone.bat"
 cd ..
 start "git clone" cmd /c "git-clone.bat"
+pause
